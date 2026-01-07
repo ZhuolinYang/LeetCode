@@ -7,5 +7,5 @@ class Solution:
             if complement in seen:
                 return [seen[complement], i]
             
-            seen[complement] = i
+            seen[num] = i
         
